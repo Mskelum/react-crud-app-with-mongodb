@@ -1,0 +1,36 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-links a,
+  .navbar-auth a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .navbar-links a:hover,
+  .navbar-auth a:hover {
+    background-color: #555;
+  }
+  
+  .navbar-auth a {
+    border: 1px solid white;
+  }
+  
+  .navbar-auth a:hover {
+    background-color: #444;
+  }
+  

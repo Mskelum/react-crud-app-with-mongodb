@@ -1,0 +1,9 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.uploaded-image {
+    object-fit: cover; /* Ensure entire image is visible within specified dimensions */
+}
